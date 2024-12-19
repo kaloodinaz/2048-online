@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-    <link rel="manifest" href="/manifest.json"/>
+    <link rel="manifest" href="manifest.json"/>
 <meta name="theme-color" content="#151515" />
   <title>2048 Game | Play 2048 Game Online</title>
 <meta name="description" content="Play the addictive game 2048 online in up to 4x4 size. Use your strategy and logic to combine numbers and achieve high scores in this addictive puzzle game. Put your skills to the test in 2048 4x4 right now!">
@@ -19,7 +19,7 @@
 </head>
 <body>
   <script>
-      if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/sw.js')
+      if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('sw.js')
       .then(registration => {console.log('Service Worker registered successfully:', registration);})
       .catch(error => {console.log('Error in Service Worker registration:', error);});});}
       </script>
