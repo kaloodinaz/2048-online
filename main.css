@@ -47,7 +47,7 @@
     src: local('Clear Sans Medium'), url('https://fonts.cdnfonts.com/s/16214/ClearSans-MediumItalic.woff') format('woff');
 }
 html,body{margin:0;padding:0;background:#faf8ef;color:#776e65;font-family:"Clear Sans","Helvetica Neue",Arial,sans-serif;font-size:18px}
-body{margin:80px 0}
+body{margin:20px 0}
 .heading:after{content:"";display:block;clear:both}
 h1.title{font-size:80px;font-weight:700;margin:0;display:block;float:left}
 @-webkit-keyframes move-up {
