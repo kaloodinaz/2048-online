@@ -1,6 +1,51 @@
-@font-face{font-family:"Clear Sans";src:url(fonts/ClearSans-Light-webfont.eot);src:url(fonts/ClearSans-Light-webfont.eot?#iefix) format("embedded-opentype"),url(fonts/ClearSans-Light-webfont.svg#clear_sans_lightregular) format("svg"),url(fonts/ClearSans-Light-webfont.woff) format("woff");font-weight:200;font-style:normal}
-@font-face{font-family:"Clear Sans";src:url(fonts/ClearSans-Regular-webfont.eot);src:url(fonts/ClearSans-Regular-webfont.eot?#iefix) format("embedded-opentype"),url(fonts/ClearSans-Regular-webfont.svg#clear_sansregular) format("svg"),url(fonts/ClearSans-Regular-webfont.woff) format("woff");font-weight:400;font-style:normal}
-@font-face{font-family:"Clear Sans";src:url(fonts/ClearSans-Bold-webfont.eot);src:url(fonts/ClearSans-Bold-webfont.eot?#iefix) format("embedded-opentype"),url(fonts/ClearSans-Bold-webfont.svg#clear_sansbold) format("svg"),url(fonts/ClearSans-Bold-webfont.woff) format("woff");font-weight:700;font-style:normal}
+@font-face {
+    font-family: 'Clear Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Clear Sans'), url('https://fonts.cdnfonts.com/s/16214/ClearSans-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Clear Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Clear Sans'), url('https://fonts.cdnfonts.com/s/16214/ClearSans-Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Clear Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Clear Sans'), url('https://fonts.cdnfonts.com/s/16214/ClearSans-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Clear Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Clear Sans'), url('https://fonts.cdnfonts.com/s/16214/ClearSans-BoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Clear Sans Thin';
+    font-style: normal;
+    font-weight: 250;
+    src: local('Clear Sans Thin'), url('https://fonts.cdnfonts.com/s/16214/ClearSans-Thin.woff') format('woff');
+}
+@font-face {
+    font-family: 'Clear Sans Light';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Clear Sans Light'), url('https://fonts.cdnfonts.com/s/16214/ClearSans-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Clear Sans Medium';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Clear Sans Medium'), url('https://fonts.cdnfonts.com/s/16214/ClearSans-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Clear Sans Medium';
+    font-style: italic;
+    font-weight: 500;
+    src: local('Clear Sans Medium'), url('https://fonts.cdnfonts.com/s/16214/ClearSans-MediumItalic.woff') format('woff');
+}
 html,body{margin:0;padding:0;background:#faf8ef;color:#776e65;font-family:"Clear Sans","Helvetica Neue",Arial,sans-serif;font-size:18px}
 body{margin:80px 0}
 .heading:after{content:"";display:block;clear:both}
@@ -185,8 +230,8 @@ h1.title{font-size:27px;margin-top:15px}
 .game-message .lower{margin-top:30px!important}
 }
 .block{display:flex;justify-content:center;align-items:center;margin:0 auto}
-.block-300{display:none;width:100%;height:250px;background-color:#181818}
-.block-728{display:none;width:100%;max-width:728px;height:90px;background-color:#292929}
+.block-300{display:none;width:100%;height:250px;background-color:#8f7a66}
+.block-728{display:none;width:100%;max-width:728px;height:90px;background-color:#8f7a66}
 @media only screen and (max-width: 738px) {
 .block-300{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;margin-bottom:10px;border-radius:10px;margin-top:10px}
 .block-728{display:none}
