@@ -1,17 +1,17 @@
 const CACHE_NAME = '2048-cache-v1';
 const urlsToCache = [
-  '/index.html',
-  '/favicon.ico',
-  '/main.js',
-  '/main.css',
-  '/icons/icon-72x72.png',
-  '/icons/icon-96x96.png',
-  '/icons/icon-128x128.png',
-  '/icons/icon-144x144.png',
-  '/icons/icon-152x152.png',
-  '/icons/icon-192x192.png',
-  '/icons/icon-384x384.png',
-  '/icons/icon-512x512.png',
+  'https://kaloodinaz.github.io/2048-online/index.html',
+  'https://kaloodinaz.github.io/2048-online/favicon.ico',
+  'https://kaloodinaz.github.io/2048-online/main.js',
+  'https://kaloodinaz.github.io/2048-online/main.css',
+  'https://kaloodinaz.github.io/2048-online/icons/icon-72x72.png',
+  'https://kaloodinaz.github.io/2048-online/icons/icon-96x96.png',
+  'https://kaloodinaz.github.io/2048-online/icons/icon-128x128.png',
+  'https://kaloodinaz.github.io/2048-online/icons/icon-144x144.png',
+  'https://kaloodinaz.github.io/2048-online/icons/icon-152x152.png',
+  'https://kaloodinaz.github.io/2048-online/icons/icon-192x192.png',
+  'https://kaloodinaz.github.io/2048-online/icons/icon-384x384.png',
+  'https://kaloodinaz.github.io/2048-online/icons/icon-512x512.png',
 ];
 
 self.addEventListener('install', event => {
