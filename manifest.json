@@ -5,8 +5,8 @@
   "background_color": "#171717",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "/2048-online/",
+  "start_url": "/2048-online/",
   "icons": [
     {
       "src": "https://kaloodinaz.github.io/2048-online/icons/icon-72x72.png",
