@@ -1,55 +1,8 @@
-@font-face {
-    font-family: 'Clear Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Clear Sans'), url('https://fonts.cdnfonts.com/s/16214/ClearSans-Regular.woff') format('woff');
-}
-@font-face {
-    font-family: 'Clear Sans';
-    font-style: italic;
-    font-weight: 400;
-    src: local('Clear Sans'), url('https://fonts.cdnfonts.com/s/16214/ClearSans-Italic.woff') format('woff');
-}
-@font-face {
-    font-family: 'Clear Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Clear Sans'), url('https://fonts.cdnfonts.com/s/16214/ClearSans-Bold.woff') format('woff');
-}
-@font-face {
-    font-family: 'Clear Sans';
-    font-style: italic;
-    font-weight: 700;
-    src: local('Clear Sans'), url('https://fonts.cdnfonts.com/s/16214/ClearSans-BoldItalic.woff') format('woff');
-}
-@font-face {
-    font-family: 'Clear Sans Thin';
-    font-style: normal;
-    font-weight: 250;
-    src: local('Clear Sans Thin'), url('https://fonts.cdnfonts.com/s/16214/ClearSans-Thin.woff') format('woff');
-}
-@font-face {
-    font-family: 'Clear Sans Light';
-    font-style: normal;
-    font-weight: 300;
-    src: local('Clear Sans Light'), url('https://fonts.cdnfonts.com/s/16214/ClearSans-Light.woff') format('woff');
-}
-@font-face {
-    font-family: 'Clear Sans Medium';
-    font-style: normal;
-    font-weight: 500;
-    src: local('Clear Sans Medium'), url('https://fonts.cdnfonts.com/s/16214/ClearSans-Medium.woff') format('woff');
-}
-@font-face {
-    font-family: 'Clear Sans Medium';
-    font-style: italic;
-    font-weight: 500;
-    src: local('Clear Sans Medium'), url('https://fonts.cdnfonts.com/s/16214/ClearSans-MediumItalic.woff') format('woff');
-}
-html,body{margin:0;padding:0;background:#faf8ef;color:#776e65;font-family:"Clear Sans","Helvetica Neue",Arial,sans-serif;font-size:18px}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+html,body{margin:0;padding:0;background:#faf8ef;color:#776e65;font-family:"Poppins","Helvetica Neue",Arial,sans-serif;font-size:18px}
 body{margin:20px 0}
 .heading:after{content:"";display:block;clear:both}
-h1.title{font-size:80px;font-weight:700;margin:0;display:block;float:left}
+h1.title{font-size:50px;font-weight:700;margin:0;display:block;float:left}
 @-webkit-keyframes move-up {
 0%{top:25px;opacity:1}
 100%{top:-50px;opacity:0}
@@ -63,7 +16,7 @@ h1.title{font-size:80px;font-weight:700;margin:0;display:block;float:left}
 100%{top:-50px;opacity:0}
 }
 .scores-container{float:right;text-align:right}
-.score-container,.best-container{position:relative;display:inline-block;background:#bbada0;padding:15px 25px;font-size:25px;height:25px;line-height:47px;font-weight:700;border-radius:3px;color:#fff;margin-top:8px;text-align:center}
+.score-container,.best-container{position:relative;display:inline-block;background:#855e3a;padding:15px 25px;font-size:25px;height:25px;line-height:47px;font-weight:700;border-radius:3px;color:#fff;margin-top:8px;text-align:center}
 .score-container:after,.best-container:after{position:absolute;width:100%;top:10px;left:0;text-transform:uppercase;font-size:13px;line-height:13px;text-align:center;color:#eee4da}
 .score-container .score-addition,.best-container .score-addition{position:absolute;right:30px;color:red;font-size:25px;line-height:25px;font-weight:700;color:rgba(119,110,101,0.9);z-index:100;-webkit-animation:move-up 600ms ease-in;-moz-animation:move-up 600ms ease-in;animation:move-up 600ms ease-in;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;animation-fill-mode:both}
 .score-container:after{content:"Score"}
@@ -85,7 +38,7 @@ hr{border:none;border-bottom:1px solid #d8d4d0;margin-top:20px;margin-bottom:30p
 0%{opacity:0}
 100%{opacity:1}
 }
-.game-container{margin-top:40px;position:relative;padding:15px;cursor:default;-webkit-touch-callout:none;-ms-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-ms-touch-action:none;touch-action:none;background:#bbada0;border-radius:6px;width:500px;height:500px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.game-container{margin-top:40px;position:relative;padding:15px;cursor:default;-webkit-touch-callout:none;-ms-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-ms-touch-action:none;touch-action:none;background:#836b55;border-radius:6px;width:500px;height:500px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 .game-container .game-message{display:none;position:absolute;top:0;right:0;bottom:0;left:0;background:rgba(238,228,218,0.5);z-index:100;text-align:center;-webkit-animation:fade-in 800ms ease 1200ms;-moz-animation:fade-in 800ms ease 1200ms;animation:fade-in 800ms ease 1200ms;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;animation-fill-mode:both}
 .game-container .game-message p{font-size:60px;font-weight:700;height:60px;color:#5d3c30;line-height:60px;margin-top:200px}
 .game-container .game-message .lower{display:block;margin-top:59px}
@@ -185,14 +138,14 @@ hr{border:none;border-bottom:1px solid #d8d4d0;margin-top:20px;margin-bottom:30p
 .game-explanation{margin-top:50px}
 @media screen and (max-width: 520px) {
 html,body{font-size:15px}
-body{margin:20px 0;padding:0 20px}
+body{margin:10px 0;padding:0 5px}
 h1.title{font-size:27px;margin-top:15px}
 .container{width:280px;margin:0 auto}
-.score-container,.best-container{margin-top:0;padding:15px 10px;min-width:40px}
+.score-container,.best-container{margin-top:0;padding:12px 5px;min-width:40px}
 .heading{margin-bottom:10px}
 .game-intro{width:55%;display:block;box-sizing:border-box;line-height:1.65}
 .restart-button{width:42%;padding:0;display:block;box-sizing:border-box;margin-top:2px}
-.game-container{margin-top:17px;position:relative;padding:10px;cursor:default;-webkit-touch-callout:none;-ms-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-ms-touch-action:none;touch-action:none;background:#bbada0;border-radius:6px;width:280px;height:280px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.game-container{margin-top:17px;position:relative;padding:10px;cursor:default;-webkit-touch-callout:none;-ms-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-ms-touch-action:none;touch-action:none;background:#836b55;border-radius:6px;width:280px;height:280px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 .game-container .game-message{display:none;position:absolute;top:0;right:0;bottom:0;left:0;background:rgba(238,228,218,0.5);z-index:100;text-align:center;-webkit-animation:fade-in 800ms ease 1200ms;-moz-animation:fade-in 800ms ease 1200ms;animation:fade-in 800ms ease 1200ms;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;animation-fill-mode:both}
 .game-container .game-message p{font-size:60px;font-weight:700;height:60px;line-height:60px;margin-top:222px}
 .game-container .game-message .lower{display:block;margin-top:59px}
@@ -239,4 +192,16 @@ h1.title{font-size:27px;margin-top:15px}
 @media only screen and (min-width: 739px) {
 .block-728{display:flex;justify-content:center;align-items:center;margin-bottom:10px;border-radius:10px;margin-top:10px}
 .block-300{display:none}
+}
+ul.unstyled.tips-and-tricks{list-style:none;padding:0;margin:30px auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:1200px}
+ul.unstyled.tips-and-tricks li{background:#f8f5ef;border-radius:10px;padding:16px;box-shadow:0 2px 6px #00000014;transition:transform .2s ease,box-shadow .2s ease;font-size:16px;line-height:1.5;color:#333}
+ul.unstyled.tips-and-tricks li:hover{transform:translateY(-4px);box-shadow:0 6px 12px #0000001f}
+@media (max-width: 600px) {
+ul.unstyled.tips-and-tricks{grid-template-columns:1fr}
+}
+@media (min-width: 601px) and (max-width: 992px) {
+ul.unstyled.tips-and-tricks{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+}
+@media (min-width: 993px) {
+ul.unstyled.tips-and-tricks{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
 }
